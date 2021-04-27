@@ -1,0 +1,1 @@
+The above Assembly-CSharp file is a _publicized_ and _stripped_ assembly, meaning there is no actual code inside it! It's just type definitions and method signatures. Additionally every access modifier has been set to public and combined with making the project allow unsafe code it means we can access all of the private stuff in the game.

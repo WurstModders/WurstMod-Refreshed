@@ -3,9 +3,9 @@ using Deli.Setup;
 
 namespace Deli.ExampleMod
 {
-	public class ExampleMod : DeliBehaviour
+	public class WurstModReloaded : DeliBehaviour
 	{
-		public ExampleMod()
+		public WurstModReloaded()
 		{
 
 		}

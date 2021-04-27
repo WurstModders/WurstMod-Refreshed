@@ -1,16 +1,15 @@
 {
-  "name": "Deli Example Mod",
+  "name": "WurstMod: Refreshed",
   "authors": [
-    "Nathan Gill",
-    "AshHat"
+    "Nathan Gill"
   ],
-  "guid": "deli.example_mod",
-  "version": "1.0.0",
-  "require": "0.3.0",
+  "guid": "wm.refreshed",
+  "version": "0.0.0",
+  "require": "0.3.2",
   "dependencies": {},
   "assets": {
     "setup": {
-      "Deli.ExampleMod.dll": "deli:assembly"
+      "WurstModRefreshed.dll": "deli:assembly"
     }
   }
 }
