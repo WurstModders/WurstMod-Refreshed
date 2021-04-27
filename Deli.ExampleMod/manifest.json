@@ -1,0 +1,16 @@
+{
+  "name": "Deli Example Mod",
+  "authors": [
+    "Nathan Gill",
+    "AshHat"
+  ],
+  "guid": "deli.example_mod",
+  "version": "1.0.0",
+  "require": "0.3.0",
+  "dependencies": {},
+  "assets": {
+    "setup": {
+      "Deli.ExampleMod.dll": "deli:assembly"
+    }
+  }
+}
