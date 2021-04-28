@@ -63,12 +63,19 @@ namespace WurstModRefreshed
             ThumbnailSprite = Thumbnail.ToSprite();
         }
     }
-
+    
+    // ReSharper disable once ClassNeverInstantiated.Global
     public class CustomSceneMeta
     {
-        public string Name { get; set; } = "";
-        public string Description { get; set; } = "";
-        public string Author { get; set; } = "";
-        public string Gamemode { get; set; } = "";
+#pragma warning disable 8618
+        // ReSharper disable UnusedAutoPropertyAccessor.Global
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Author { get; set; }
+        public string Gamemode { get; set; }
+        public string SceneName { get; set; }
+        
+        // ReSharper restore UnusedAutoPropertyAccessor.Global
+#pragma warning restore 8618
     }
 }

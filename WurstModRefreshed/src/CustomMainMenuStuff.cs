@@ -1,17 +1,8 @@
 ﻿using System.Collections;
 using FistVR;
-using UnityEngine.SceneManagement;
 
 namespace WurstModRefreshed
 {
-    public class MainMenuScenePatcher
-    {
-        public IEnumerator Run(Scene scene)
-        {
-            yield break;
-        }
-    }
-
     public class MainMenuCustomScenePointable : MainMenuScenePointable
     {
         public override void OnPoint(FVRViveHand hand)
@@ -42,7 +33,6 @@ namespace WurstModRefreshed
             // Re-enable the button and fill in the info.
             Screen.LoadSceneButton.SetActive(true);
             Screen.Label_Title.text = scene.Meta.Name;
-            
         }
     }
 
